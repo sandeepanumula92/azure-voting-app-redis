@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
       - name: azure-vote-front
-        image: sandeepanumula92/azure-voting-app-redis
+        image: acrforaksdemo.azurecr.io/sandeepanumula92/azure-voting-app-redis
         ports:
         - containerPort: 80
         resources:
